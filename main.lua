@@ -84,6 +84,7 @@ local function startup()
 	
 	local all_fonts = native.getFontNames()
 	for i = 1, #all_fonts do	
+		db.print("Font found: " .. all_fonts[i])
 		if match(all_fonts[i]) then
 			fontName = all_fonts[i]
 			break
