@@ -35,7 +35,8 @@ end
 local shortFontNameLookup =
 {
 	"FuturaBT-ExtraBlack", -- bundled font
-	--"verdana-bold" -- to be compatible with older iPods
+	"FuturaXBlk BT", -- new addbreviation (from whence it came???)
+	"verdana-bold" -- to be compatible with older iPods
 
 }
 
