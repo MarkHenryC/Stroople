@@ -12,7 +12,7 @@ require "globals"
 require "db"
 
 local background
-local fontName "Arial"
+local fontName = "Arial"
 local lingoMenu
 local lingoImages
 
