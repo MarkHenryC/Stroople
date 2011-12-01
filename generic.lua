@@ -22,7 +22,7 @@ function newWordGroup(params)
 	function wordGroup:init()
 		
 		for i = 1, self.wordCount do
-			local r = word.newWord(self.fontName, self.fontName, self.textHeight, self.colorNames)
+			local r = word.newWord("system", self.fontName, self.textHeight, self.colorNames)
 			r.isVisible = false
 			self:insert(r)	
 		end

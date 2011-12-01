@@ -262,7 +262,7 @@ function createWords(params, resolution)
 		self.score = 0
 		
 		for i = 1, self.items do
-			local r = self:newWord(self.fontName, self.fontName, self.textHeight)
+			local r = self:newWord("system", self.fontName, self.textHeight)
 			r.index = 1 + (i-1) * self.positions
 			r.isVisible = false
 			if i == 1 then r.FLAG = true end

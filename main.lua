@@ -12,7 +12,7 @@ require "globals"
 require "db"
 
 local background
-local fontName = "Arial"
+local fontName = native.systemFontBold -- to be Windows-compatible
 local lingoMenu
 local lingoImages
 

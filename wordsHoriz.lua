@@ -161,7 +161,7 @@ function createWords(params)
 			local y = self. topBorder + (i - 1) * (self.textHeight + self.textSpacing)
 
 			local t = self:newWord(
-				self.fontName, self.fontName, self.textHeight)
+				"system", self.fontName, self.textHeight)
 
 			t.x = 0
 			t.y = y

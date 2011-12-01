@@ -211,7 +211,7 @@ function createWords(params, resolution)
 
 		local counter = 1
 		for i = 1, words.items do
-			local r = self:newWord(self.fontName, self.fontName, self.textHeight)
+			local r = self:newWord("system", self.fontName, self.textHeight)
 			
 			r.counter = counter
 			
